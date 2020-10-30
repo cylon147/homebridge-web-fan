@@ -15,7 +15,7 @@ function WebFan (log, config) {
 
   this.name = config.name
   this.apiroute = config.apiroute
-  this.pollInterval = config.pollInterval || 300
+  this.pollInterval = config.pollInterval || 15
 
   this.listener = config.listener || false
   this.port = config.port || 2000
